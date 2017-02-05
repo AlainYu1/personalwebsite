@@ -1,0 +1,326 @@
+body {
+    background: #0f0f0f;
+    padding-top: 40px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    font-size: 15px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+ul.nav a:hover {
+    color: #FFA500 !important;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+section {
+    /*padding-top: : 40px 0 40px 0;
+    margin-top:-40px;*/
+}
+
+.jumbotron {
+    background: url(../img/sfbg.jpg) center fixed;
+    background-size: cover;
+    color: #fff;
+    height: 1300px;
+    overflow: none;
+    margin-bottom: 0px;
+}
+
+#jumbo-content {
+    position: relative;
+    top: 20%
+}
+
+.jumbotron h1 {
+    font-family: Georgia;
+    font-size: 150px;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron p {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #e6e6e6;
+}
+
+ul#networks li{
+    display: inline;
+    font-size: 50px;
+    padding: 0 10px 0 10px;
+}
+
+ul#networks {
+    text-align: center;
+}
+
+a:link {
+    color: #fff
+}
+
+a:visited {
+    color: #fff;
+}
+
+.big {
+    line-height: 200%;
+    font-size: 15px;
+    color: #fff;
+}
+
+section#about-info {
+    background: #FFCD77;
+    color: #fff;
+    padding: 130px 0 130px 0;
+}
+
+img.profile-pic {
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 35%;
+    border-radius: 200%;
+}
+
+#catchphrase {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: Verdana;
+    color: #fff;
+}
+
+a#resume-button {
+    margin-top: 80px;
+    padding: 12px 20px;
+    background : #696969;
+    color: #fff;
+}
+
+i {
+    margin-right: 10px;
+}
+
+section#contact {
+    background: #696969;
+    color: #333;
+}
+
+/* =====Skills Section===== */
+section#skills{
+    background: #333;
+    padding: 120px 0 120px 0;
+}
+
+#skills-left > i {
+    color: #fff;
+    font-size: 120px;
+    margin-left: 60px;
+}
+
+#skills-left > h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+
+#skills-left hr {
+    margin-right: 30%;
+    color: #fff;
+}
+
+#skills-left p {
+    width: 70%;
+    color: #fff;
+}
+
+#skills-name {
+  color: #fff;
+}
+
+div#html {
+
+}
+
+div#css {
+
+}
+
+div#node {
+
+}
+
+div#javascript {
+
+}
+
+div#jquery {
+    background: #ff0066;
+}
+
+div#react {
+    background: #0099ff;
+}
+
+div#angular {
+
+}
+
+#skills > hr {
+    width: 55%
+}
+
+#edu-left > i {
+    color: #fff;
+    font-size: 130px;
+    margin-left: 50px;
+}
+
+#edu-left > h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: 5%;
+}
+
+#edu-left > hr {
+    color: #fff;
+    margin-right: 30%;
+}
+
+#edu-left > p {
+    width: 70%;
+}
+
+#edu-right {
+    line-height: 200%;
+    color: #fff;
+}
+
+#edu-right > h2 {
+    text-decoration: underline;
+    color: #fff;
+}
+
+#edu-right > h4 {
+    margin-top: 20px;
+    font-style: italic;
+}
+/* =====Skills End===== */
+
+/* =====Works===== */
+
+section#works {
+    background: #fff;
+    color: #333;
+    padding: 120px 0 120px 0;
+}
+
+#works-brand {
+    text-align: center;
+}
+
+#works-brand > i {
+    font-size: 120px;
+}
+
+#works-brand > h1 {
+    font-size: 60px;
+}
+
+#works-info {
+    text-align: center;
+}
+
+#works-info > div > i {
+    font-size: 60px;
+    /*padding: 40px 0 20px 100px;*/
+}
+
+#works-info > div > h2 {
+    /*margin-left: 80px;*/
+}
+
+#works-info > div > p {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* =====End Works===== */
+
+label {
+    margin-bottom: 10px;
+}
+
+section#contact {
+    padding: 120px 0 120px 0;
+    background: #60aaff;
+}
+
+#contact-icon {
+    color: #fff;
+    font-size: 120px;
+    margin-left: 60px;
+}
+
+#contact-header{
+    color: #fff;
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+#contact-hr{
+    margin-right: 30%;
+}
+
+#contact-p{
+    width: 70%;
+    color: #fff;
+}
+
+.form-group {
+    color: #fff;
+}
+
+.form-control {
+    background-color: #333;
+    border-color: #333;
+}
+
+footer {
+    background: #0f0f0f;
+    color: #fff;
+    padding: 40px 0 30px 0;
+}
+
+footer li {
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    float: right;
+}
+
+#networks-footer {
+        margin-left: 30px;
+        display: inline-block;;
+        font-size: 30px;
+}
