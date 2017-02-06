@@ -18,13 +18,13 @@ ul.nav a:hover {
 }
 
 .navbar-default {
-  background-color: #fff;
-  border-color: #fff;
+  background-color: #333;
+  border-color: #333;
   font-family: 'Poppins', sans-serif;
 }
 
 .jumbotron {
-  background: url(../img/sfbg.jpg) center fixed;
+  background: url(../img/site_showcase_bg.jpg) center fixed;
   background-size: cover;
   color: #fff;
   height: 1300px;
@@ -49,7 +49,7 @@ ul.nav a:hover {
   font-family: 'Poppins', sans-serif;
   font-size: 50px;
   text-align: center;
-  color: #FFCD77;
+  color: #FFCD50;
 }
 
 .jumbotron p {
@@ -96,7 +96,7 @@ font-size: 50px;
 }
 
 section#about-info {
-  background: #FFCD77;
+  background: #333;
   color: #fff;
   padding: 130px 0 130px 0;
   font-family: 'Poppins', sans-serif;
@@ -120,7 +120,7 @@ img.profile-pic {
 a#resume-button {
   margin-top: 80px;
   padding: 12px 20px;
-  background : #696969;
+  background : #5b5b5b;
   color: #fff;
 }
 
@@ -129,25 +129,25 @@ i {
 }
 
 section#contact {
-  background: #696969;
+  background: #5b5b5b;
   color: #333;
 }
 
 /* =====Skills Section===== */
 section#skills{
-  background: #333;
+  background: #fff;
   padding: 120px 0 120px 0;
   font-family: 'Poppins', sans-serif;
 }
 
 #skills-left > i {
-  color: #fff;
+  color: #333;
   font-size: 120px;
   margin-left: 60px;
 }
 
 #skills-left > h1 {
-  color: #fff;
+  color: #333;
   font-size: 60px;
   margin-left: 50px;
   margin-top: 5%;
@@ -155,16 +155,16 @@ section#skills{
 
 #skills-left hr {
   margin-right: 30%;
-  color: #fff;
+  color: #333;
 }
 
 #skills-left p {
   width: 70%;
-  color: #fff;
+  color: #333;
 }
 
 #skills-name {
-  color: #fff;
+  color: #333;
 }
 
 div#html {
@@ -200,20 +200,20 @@ div#angular {
 }
 
 #edu-left > i {
-  color: #fff;
+  color: #333;
   font-size: 130px;
   margin-left: 50px;
 }
 
 #edu-left > h1 {
-  color: #fff;
+  color: #333;
   font-size: 50px;
   margin-left: 0px;
   margin-top: 5%;
 }
 
 #edu-left > hr {
-  color: #fff;
+  color: #333;
   margin-right: 30%;
 }
 
@@ -223,12 +223,12 @@ div#angular {
 
 #edu-right {
   line-height: 200%;
-  color: #fff;
+  color: #333;
 }
 
 #edu-right > h2 {
   text-decoration: underline;
-  color: #fff;
+  color: #333;
 }
 
 #edu-right > h4 {
@@ -284,7 +284,7 @@ label {
 
 section#contact {
   padding: 120px 0 120px 0;
-  background: #4cccff;
+  background: #515151;
   font-family: 'Poppins', sans-serif;
 }
 
