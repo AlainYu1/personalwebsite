@@ -9,12 +9,16 @@ body {
   font-size: 15px;
 }
 
+#nav-text {
+  color: #fff;
+}
+
 .navbar .navbar-collapse {
   text-align: center;
 }
 
 ul.nav a:hover {
-  color: #FFA500 !important;
+  color: #FFCD50 !important;
 }
 
 .navbar-default {
