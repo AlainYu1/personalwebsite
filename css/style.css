@@ -31,7 +31,7 @@ ul.nav a:hover {
   background: url(../img/site_showcase_bg.jpg) center fixed;
   background-size: cover;
   color: #fff;
-  height: 1300px;
+  height: 900px;
   overflow: none;
   margin-bottom: 0px;
 }
@@ -43,7 +43,7 @@ ul.nav a:hover {
 
 .jumbotron h1 {
   font-family: 'Pacifico', sans-serif;
-  font-size: 150px;
+  font-size: 120px;
   margin-top: 20px;
   text-align: center;
   color: #fff;
