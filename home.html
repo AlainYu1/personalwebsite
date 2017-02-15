@@ -11,10 +11,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="http://cdn.dev.skype.com/uri/skype-uri.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
 
   </head>
 
@@ -50,12 +55,12 @@
                         <h2>Hello world,</h2>
                         <h1>I'm Alain Yu</h1>
                         <p style="strong">| Front-End Developer | Bootcamp Graduate |</p>
-                        <hr />
+                        <br/>
                         <ul id="networks">
-                            <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="http://github.com"><i class="fa fa-github"></i></a></li>
-                            <li><a href="http://skype.com"><i class="fa fa-skype"></i></a></li>
-                            <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/alainyu"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://github.com/alainyu1"><i class="fa fa-github"></i></a></li>
+                            <li><a onclick="Skype.tryAnalyzeSkypeUri('call', '0');" href="skype:alainyu1?call"><i class="fa fa-skype"></i></a></li>
+                            <li><a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=alainyu25@gmail.com&body=my-text"><i class="fa fa-google"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -71,7 +76,7 @@
                     <h3 id="catchphrase">"How's it going?"</h3>
                 </div>
                 <div class="col-md-8">
-                <h2 id="moo">About</h2>
+                <h2 id="about-h2">About</h2>
                     <br />
                     <p class="big">
                     Glad you made it to my site!
@@ -88,7 +93,7 @@
             </div>
                 <div class="row">
                     <div class="col-md-3 col-md-offset-4">
-                    <h2 id="moo">Details</h2>
+                    <h2 id="about-h2">Details</h2>
                     <br />
                     <p class="big">
                       <strong style="font-size: 20px">Name:</strong> Alain Yu
@@ -116,54 +121,34 @@
                     <i class="glyphicon glyphicon-cog"></i>
                     <h1>Skills</h1>
                     <hr />
-                    <p class="quotes">"No templates here, this site is made 100% by me!"
+                      <p>"Although my bootcamp taught well, I also continue to learn
+                        new technologies."
                     </p>
                 </div>
 
-                <div class="col-md-6" id="skills-name">
-                    <h4 class="progress-label">HTML</h4>
-                    <div class="progress">
-                      <div id="html" class="progress-bar progress-bar-default" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                        <span>70%</span>
-                      </div>
+                <div class="col-md-8" id="skills-container">
+                  <div class="container-fluid">
+                    <div id="skills-icon">
+                      <i class="devicon-html5-plain-wordmark colored"></i>
+                      <i class="devicon-css3-plain-wordmark colored"></i>
+                      <i class="devicon-bootstrap-plain colored"></i>
                     </div>
-                    <h4 class="progress-label">CSS</h4>
-                    <div class="progress">
-                      <div id="css" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                        <span>60%</span>
-                      </div>
+                    <br />
+                    <br />
+                    <div id="skills-icon">
+                      <i class="devicon-javascript-plain colored"></i>
+                      <i class="devicon-jquery-plain-wordmark colored"></i>
+                      <i class="devicon-nodejs-plain-wordmark colored"></i>
                     </div>
-                    <h4 class="progress-label">Bootstrap</h4>
-                    <div class="progress">
-                      <div id="node" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                        <span>40%</span>
-                      </div>
-                    </div>
-                    <h4 class="progress-label">Javascript</h4>
-                    <div class="progress">
-                      <div id="javascript" class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                        <span>50%</span>
-                      </div>
-                    </div>
-                    <h4 class="progress-label">Jquery</h4>
-                    <div class="progress">
-                      <div id="jquery" class="progress-bar progress-bar-default" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                        <span>20%</span>
-                      </div>
-                    </div>
-                    <h4 class="progress-label">React JS</h4>
-                    <div class="progress">
-                      <div id="react" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%">
-                        <span>33%</span>
-                      </div>
-                    </div>
-                    <h4 class="progress-label">Angular 1</h4>
-                    <div class="progress">
-                      <div id="angular" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                        <span>40%</span>
-                      </div>
+                    <br />
+                    <br />
+                    <div id="skills-icon">
+                      <i class="devicon-react-original colored"></i>
+                      <i class="devicon-angularjs-plain colored"></i>
+                      <i class="devicon-heroku-plain colored"></i>
                     </div>
                 </div>
+              </div>
             </div>
         </div>
 
@@ -177,8 +162,8 @@
                     <i class="glyphicon glyphicon-education"></i>
                     <h1>Education</h1>
                     <hr />
-                    <p>"Bloc helped me understand the world of computer science.
-                    Because of their mentorship, I am able to take on any technology!"
+                    <p>"I am constantly learning new things, but what is a truly humbling experience
+                      is to learn from other people who are smarter than myself!"
                 </p>
                 </div>
                 <div class="col-md-6">
@@ -186,11 +171,15 @@
                     <h2>Bloc.io</h2>
                     <h4>FullStack Program • Dec 2016</h4>
                     <br>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                    Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                    mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-                    quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis
-                    eu pede mollis pretium.</p>
+                    <p>Because there are many algorithms and technologies required to be
+                       a great developer, my mentors at Bloc encouraged a skill called Meta-Skill.
+                    </p>
+                    <p>
+                      Meta-Skill is a higher order skill that teaches you to learn anything accurately.
+                      By using divide and conquer techniques, a complex problem can be easily divided into
+                      several simple ones. My year long adventure with Bloc.io in 2016 had helped me build this
+                      foundation in order to tackle the rapid world of web development.
+                    </p>
                     </div>
                 </div>
             </div>
@@ -274,7 +263,7 @@
                     <i id="contact-icon" class="glyphicon glyphicon-envelope"></i>
                     <h1 id="contact-header">Contact</h1>
                     <hr id="contact-hr" />
-                    <p class="quotes">"Don't forget to send cookies :)"
+                    <p>"Don't forget to send cookies :)"</p>
                 </div>
                 <div class="col-md-6">
                     <form>
@@ -315,10 +304,10 @@
                 </div>
                 <div class="col-md-4">
                     <ul id="networks-footer">
-                        <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="http://github.com"><i class="fa fa-github"></i></a></li>
-                        <li><a href="http://skype.com"><i class="fa fa-skype"></i></a></li>
-                        <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/alainyu"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="https://github.com/alainyu1"><i class="fa fa-github"></i></a></li>
+                      <li><a onclick="Skype.tryAnalyzeSkypeUri('call', '0');" href="skype:alainyu1?call"><i class="fa fa-skype"></i></a></li>
+                      <li><a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=alainyu25@gmail.com&body=my-text"><i class="fa fa-google"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">

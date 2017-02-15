@@ -88,15 +88,9 @@ a:visited {
   color: #fff;
 }
 
-.quotes {
-  font-size: 18px;
-  color: #fff;
-  margin-right: 50px;
-}
-
-#moo {
-font-family: 'Pacifico', sans-serif;
-font-size: 50px;
+#about-h2 {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 50px;
 }
 
 section#about-info {
@@ -167,36 +161,16 @@ section#skills{
   color: #333;
 }
 
-#skills-name {
-  color: #333;
-}
-
-div#html {
+#skills-container {
 
 }
 
-div#css {
-
+#skills-icon > i {
+  font-size: 90px;
+  margin-right: 70px;
 }
 
-div#node {
-
-}
-
-div#javascript {
-
-}
-
-div#jquery {
-  background: #ff0066;
-}
-
-div#react {
-  background: #0099ff;
-}
-
-div#angular {
-
+#bootz {
 }
 
 #skills > hr {
@@ -290,6 +264,7 @@ section#contact {
   padding: 120px 0 120px 0;
   background: #515151;
   font-family: 'Poppins', sans-serif;
+  color: #fff
 }
 
 #contact-icon {
