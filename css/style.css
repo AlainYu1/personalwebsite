@@ -257,7 +257,7 @@ label {
 }
 
 section#contact {
-  padding: 120px 0 120px 0;
+  padding: 90px 0 90px 0;
   background: #515151;
   font-family: 'Poppins', sans-serif;
   color: #fff
@@ -273,7 +273,7 @@ section#contact {
   color: #fff;
   font-size: 60px;
   margin-left: 10px;
-  font-family: 'Pacifico', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #contact-hr{
@@ -283,15 +283,15 @@ section#contact {
 #contact-p{
   padding-right: 50px;
   color: #fff;
+
 }
 
-.form-group {
+#contact-info {
+  line-height: 300%;
+  font-size: 18px;
   color: #fff;
-}
-
-.form-control {
-  background-color: #333;
-  border-color: #333;
+  text-align: center;
+  margin-left: 60px;
 }
 
 footer {
@@ -315,8 +315,14 @@ footer p {
   float: right;
 }
 
-#networks-footer {
+#networks-contact {
   margin-left: 30px;
+  font-size: 50px;
+  list-style: none;
+  text-align: center;
+}
+
+#networks-contact > li {
   display: inline-block;
-  font-size: 30px;
+  padding: 0 10px 0 10px;
 }
